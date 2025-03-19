@@ -1,8 +1,6 @@
-###############################
-edX Documentation (Deprecated)
-###############################
-
-Note: This repository is now deprecated. See `the associated DEPR ticket`_.
+#####################
+edX.org Documentation
+#####################
 
 The edx-documentation repository contains source files for most of the
 documentation for edx.org partners and learners.
