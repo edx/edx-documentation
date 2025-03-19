@@ -100,15 +100,15 @@
 
 .. _GitHub: http://github.com
 
-.. _Contribute to edX Documentation: https://github.com/openedx/edx-documentation#contribute-to-edx-documentation
+.. _Contribute to edX Documentation: https://github.com/edx/edx-documentation#contribute-to-edx-documentation
 
-.. _edx-documentation/shared: https://github.com/openedx/edx-documentation/blob/master/shared/conf.py
+.. _edx-documentation/shared: https://github.com/edx/edx-documentation/blob/master/shared/conf.py
 
-.. _edx-analytics-configuration: https://github.com/openedx/edx-analytics-configuration
+.. _edx-analytics-configuration: https://github.com/edx/edx-analytics-configuration
 
-.. _edx-documentation: https://github.com/openedx/edx-documentation
+.. _edx-documentation: https://github.com/edx/edx-documentation
 
-.. _edx-tools wiki: https://github.com/openedx/edx-tools/wiki
+.. _edx-tools wiki: https://github.com/edx/edx-tools/wiki
 
 .. _custom_form_app: https://github.com/open-craft/custom-form-app
 
@@ -116,7 +116,7 @@
 
 .. _GitHub Help: https://help.github.com/articles/set-up-git
 
-.. _edx-documentation: https://github.com/openedx/edx-documentation
+.. _edx-documentation: https://github.com/edx/edx-documentation
 
 .. _password_policy_validators: https://github.com/openedx/edx-platform/blob/master/common/djangoapps/util/password_policy_validators.py
 
@@ -408,7 +408,7 @@
 
 .. _Names and Roles Provisioning Service: https://www.imsglobal.org/spec/lti-nrps/v2p0
 
-.. _LTI_NRPS_ACTIVE_ENROLLMENT_LIMIT setting: https://github.com/openedx/xblock-lti-consumer/blob/master/docs/decisions/0004-lti-advantage-nrps.rst#decision 
+.. _LTI_NRPS_ACTIVE_ENROLLMENT_LIMIT setting: https://github.com/openedx/xblock-lti-consumer/blob/master/docs/decisions/0004-lti-advantage-nrps.rst#decision
 
 .. _Issuing Badges: https://wiki.mozilla.org/Badges/Onboarding-Issuer#Issuing_Badges
 

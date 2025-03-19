@@ -88,7 +88,7 @@ The following endpoints are available in the Enterprise API.
   For details, see :ref:`learner_summary Endpoint`.
 
 
-  `Use this JSON file <https://raw.githubusercontent.com/openedx/edx-documentation/master/en_us/enterprise_api/source/api_reference/edX_Enterprise_API_Reference%20Collection.postman_collection.json>`_ to import into your `Postman enviroment <https://learning.postman.com/docs/getting-started/importing-and-exporting-data/>`_ . It includes the endpoints mentioned above.
+  `Use this JSON file <https://raw.githubusercontent.com/edx/edx-documentation/master/en_us/enterprise_api/source/api_reference/edX_Enterprise_API_Reference%20Collection.postman_collection.json>`_ to import into your `Postman enviroment <https://learning.postman.com/docs/getting-started/importing-and-exporting-data/>`_ . It includes the endpoints mentioned above.
 
 .. _Returning XML Data:
 
@@ -1105,7 +1105,7 @@ The ``POST enterprise/v1/subscriptions/{subscription_plan_uuid}/licenses/bulk-re
     207 Multi-Status - Some revocations were successful, but others failed. Returns both successful and failed revocations.
 
     400 Bad Request - An error occurred when processing the request (e.g., invalid data format).
-    
+
     404 Not Found - No license exists in the plan for one of the given email addresses, or the license is not in an assigned or activated state. An error message is provided.
 
 .. code-block:: json
