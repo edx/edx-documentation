@@ -10,3 +10,4 @@ Xpert Course Translations
    feature_description
    enabling_disabling_translations
    reviewing_and_editing_translations
+   limitations

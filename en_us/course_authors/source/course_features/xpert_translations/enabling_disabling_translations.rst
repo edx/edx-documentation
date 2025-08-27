@@ -1,29 +1,39 @@
 .. _Enabling_or_Disabling_translations:
 
-##############################################
+##################################
 Enabling or Disabling Translations
-##############################################
+##################################
 
 .. only:: Partners
 
-  *****************************
-  Video Transcript Translations
-  *****************************
+  **********************************************
+  Enabling the Xpert Course Translations Feature
+  **********************************************
 
-  - There is a waffle flag managed by edX internally to enable the translations UI in Studio for all of a Partner's courses
+  Feature availability and language is managed by edX on a per-organization basis.
 
-  - Once enabled by waffle flag, course teams can manage all transcripts from the Studio videos page UI
+  To request the Xpert Course Translations feature be available for your courses or to add new language options, please contact edX Partner Support.
 
-  .. image:: ../../images/xpert_transcript_edit_menu.png
-     :alt: Studio page showing video transcript edit menu
+  Once the feature is enabled for your organization, course teams can enable or disable translations for individual courses by going to Studio > Content > Pages & Resources > Xpert Translation.
+
+  Clicking the gear icon will open a modal where you can:
+
+  - Turn on or off Xpert Translations, making the feature available or unavailable for learners in that course.
+
+  - Select languages available for translation.
+
+  - Enable video transcripts to be translated to the selected languages.
+
+  Make your changes and then click "Save" to apply them.
+
+  .. image:: ../../images/xpert_translations_settings.png
+     :alt: Studio page showing Xpert translations settings
      :align: center
 
-  **********************
-  Unit Page Translations
-  **********************
+  ***********************************************
+  Disabling the Xpert Course Translations Feature
+  ***********************************************
 
-  - There is a waffle flag managed internally by edX to enable this feature for all of a partners' courses
+  To disable the Xpert Course Translations feature for a course, course teams can go to Studio > Content > Pages & Resources > Xpert Translation, click the gear icon and toggle off the feature.
 
-  - Once enabled, the feature's availability for a course can be controlled from the “Pages & Resources” section of a course
-
-  - This toggle will allow course teams to disable unit page translations for a specific course if desired
+  This selection applies even if the feature is enabled for other courses in your organization.
