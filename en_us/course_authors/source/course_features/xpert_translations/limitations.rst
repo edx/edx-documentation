@@ -12,7 +12,7 @@ Feature Limitations: Xpert Course Translations
    Video transcript translation limiations
    ***************************************
 
-   An existing English transcript is required for translations of video transcripts. For more information on obtaining an English transcript see `readthedocs <https://edx.readthedocs.io/projects/edx-partner-course-staff/en/latest/video/prepare_video/obtain_transcript.html>`_.
+   An existing English transcript is required for translations of video transcripts. For more information on obtaining an English transcript see :ref:`Obtain a Video Transcript`.
 
    Translations also do not currently apply to YouTube video transcripts, only videos uploaded directly to edX.
 
