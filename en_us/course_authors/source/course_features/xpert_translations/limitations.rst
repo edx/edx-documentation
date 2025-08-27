@@ -8,9 +8,9 @@ Feature Limitations: Xpert Course Translations
 
    The Xpert Course Translations feature has the following limitations:
 
-   ***************************************
-   Video transcript translation limiations
-   ***************************************
+   ****************************************
+   Video transcript translation limitations
+   ****************************************
 
    An existing English transcript is required for translations of video transcripts. For more information on obtaining an English transcript see :ref:`Obtain a Video Transcript`.
 
