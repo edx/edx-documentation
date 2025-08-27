@@ -12,11 +12,15 @@ Currently supported content types include:
 
 - **Unit page content**, including HTML, Problems, and Polls.
 
+For notes and limitations regarding the supported content types, see :ref:`Feature_Limitations_Xpert_Course_Translations`.
+
 ************************************
 Selecting a Language for Translation
 ************************************
 
-If Xpert Course Translations are enabled in your course, a new "Translate" button will appear (pictured below). Clicking the button opens a modal with languages available for translation. 
+If Xpert Course Translations are enabled in your course, a new "Translate" button will appear (pictured below).
+
+Students within your course can click the button to open a modal with languages available for translation. 
 
 .. image:: ../../images/xpert_unit_translations_widget.png
    :alt: Course unit showing Xpert translations widget
@@ -30,16 +34,13 @@ If Xpert Course Translations are enabled in your course, a new "Translate" butto
 
 |
 
-.. note::
-  Note that available language options may differ by course.
-
-Once you have selected a language for translation, supported content types will be translated into the target language.
+Once a student has selected a language for translation, supported content types will be translated into the target language.
 
 .. note::
-  Content is translated on-demand. If you are the first learner to translate a particular piece of course material, you may experience a slight delay while the content is being translated.
+  Content is translated on-demand. The first time a particular piece of course material is translated, there may be a slight delay in page loading before translated material is returned.
 
 **********************
 Resetting Translations
 **********************
 
-You can turn off translatiions by clicking the "Translate" button again and selecting "Original course language".
+Students can view original non-translated content by clicking the "Translate" button again and selecting "Original course language".
