@@ -595,7 +595,7 @@
 
 .. _3Play Media: http://www.3playmedia.com
 
-.. _Cielo24: https://portfolio.cielo24.com/login
+.. _Cielo24: https://ops.cielo24.com/accounts/login/
 
 .. _Creating Video for the edX Platform: https://www.edx.org/course/videox-creating-video-for-the-edx-platform
 
