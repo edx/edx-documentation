@@ -42,9 +42,9 @@ Once a student has selected a language for translation, supported content types 
 
 .. _Resetting_Translations:
 
-*********************
+**********************
 Resetting Translations
-*********************
+**********************
 
 Students can view original non-translated content either by clicking the globe icon again and selecting the original language, or by clicking on the new translation icon that appears when translations are enabled (pictured below).
 
