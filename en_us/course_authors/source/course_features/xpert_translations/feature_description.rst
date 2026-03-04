@@ -11,7 +11,9 @@ Currently supported content types include:
 - Video transcripts, where an original English transcript exists.
 - Unit page content, including HTML, Problems, and Polls.
 
-For notes and limitations regarding the supported content types, see :ref:`Feature Limitations: Xpert Course Translations <Feature_Limitations_Xpert_Course_Translations>`.
+.. only:: Partners
+
+   For notes and limitations regarding the supported content types, see :ref:`Feature Limitations: Xpert Course Translations <Feature_Limitations_Xpert_Course_Translations>`.
 
 .. _Selecting_a_Language_for_Translation:
 
