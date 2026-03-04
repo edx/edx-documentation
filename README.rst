@@ -61,6 +61,12 @@ Then run the tests.
 
   ./run_tests.sh
 
+
+.. note::
+   The CI Build Docs job treats Sphinx warnings as errors, so ensure
+   ``run_tests.sh`` completes with zero warnings **and** zero errors before
+   pushing. Check ``test_root/<project>/err.log`` for the full warning output.
+
 Additionally, you can run tests for a single project. For example, to build an
 HTML version of the *Installing, Configuring, and Running the Open edX
 Platform* guide, you run this test.
