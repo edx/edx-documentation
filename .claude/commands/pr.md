@@ -1,4 +1,4 @@
-Generate and create a pull request for the current branch against `edx/edx-documentation`.
+Generate and create a pull request for the current branch against the repo's default upstream (derived from the current git remote).
 
 Steps:
 
@@ -29,12 +29,12 @@ Then:
 
 6. Show the user the generated title and description and ask for confirmation before proceeding.
 7. If confirmed, push the current branch to `origin` if it hasn't been pushed yet (run `git push -u origin HEAD`).
-8. Write the PR body to a temp file and create the PR using:
+8. Determine the target repo by running `gh repo view --json nameWithOwner -q .nameWithOwner` to derive it from the current git remote. Write the PR body to a temp file and create the PR using:
    ```
    cat > /tmp/pr-body.md << 'EOF'
    <description>
    EOF
-   gh pr create --repo edx/edx-documentation --base master --title "<title>" --body-file /tmp/pr-body.md
+   gh pr create --repo <nameWithOwner> --base master --title "<title>" --body-file /tmp/pr-body.md
    rm /tmp/pr-body.md
    ```
 9. Output the PR URL so the user can open it.
