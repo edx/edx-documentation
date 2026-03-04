@@ -56,6 +56,6 @@ en_us/<project>/
 
 **Shared configuration** in `shared/conf.py` and `shared/edxconf.py` is imported by individual project `conf.py` files.
 
-**Build behavior:** `run_tests.sh` builds all projects in nit-picky Sphinx mode (`-n -W`) with 4 parallel workers. Errors and warnings are logged to `test_root/`. A build with any Sphinx warnings or errors is considered a failure.
+**Build behavior:** `run_tests.sh` builds all projects in nit-picky Sphinx mode (`-n`) with 4 parallel workers. Warnings and errors are written to log files in `test_root/` via `-w`, then parsed — a build with any Sphinx warnings or errors is considered a failure.
 
 **PR requirements:** Run `./run_tests.sh` without warnings or errors before submitting. PRs require SME, product, and partner support sign-off per `.github/PULL_REQUEST_TEMPLATE.md`.
