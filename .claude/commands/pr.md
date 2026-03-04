@@ -29,8 +29,12 @@ Then:
 
 6. Show the user the generated title and description and ask for confirmation before proceeding.
 7. If confirmed, push the current branch to `origin` if it hasn't been pushed yet (run `git push -u origin HEAD`).
-8. Create the PR using:
+8. Write the PR body to a temp file and create the PR using:
    ```
-   gh pr create --repo edx/edx-documentation --base master --title "<title>" --body "<description>"
+   cat > /tmp/pr-body.md << 'EOF'
+   <description>
+   EOF
+   gh pr create --repo edx/edx-documentation --base master --title "<title>" --body-file /tmp/pr-body.md
+   rm /tmp/pr-body.md
    ```
 9. Output the PR URL so the user can open it.
