@@ -2,9 +2,9 @@ Generate and create a pull request for the current branch against `edx/edx-docum
 
 Steps:
 
-1. Run `git log master..HEAD --oneline` to list commits in this branch.
-2. Run `git diff master..HEAD --stat` to see which files changed.
-3. Run `git diff master..HEAD` to read the full diff for context on what changed.
+1. Run `git log origin/master..HEAD --oneline` to list commits in this branch.
+2. Run `git diff origin/master..HEAD --stat` to see which files changed.
+3. Run `git diff origin/master..HEAD` to read the full diff for context on what changed.
 4. Read `.github/PULL_REQUEST_TEMPLATE.md` to get the PR template structure.
 
 Generate a PR title and description:
