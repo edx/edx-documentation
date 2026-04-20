@@ -32,6 +32,7 @@ For information about building specific course component types, see
    dropdown
    external_graders
    full_screen_image
+   games_block
    gene_explorer
    google_calendar
    google_docs
