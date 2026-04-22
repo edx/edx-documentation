@@ -6,7 +6,8 @@ Specifying Additional Video Options
 
 When you create a video component, you can customize additonal settings such as
 specifying download options for the video and transcript, video license options,
-and a start and stop time for the video.
+a start and stop time for the video, and an audio description track for
+accessibility.
 
 .. contents::
   :local:
@@ -147,6 +148,215 @@ Transcript
       - Specifies whether the transcript appears next to the video by default.
         If this is set to **unchecked**, learners can still view transcripts by
         selecting the **Show Transcript** (”) icon.
+
+.. _Audio Description:
+
+====================
+Audio Description
+====================
+
+.. note::
+   **This feature is not available for Video components in Libraries.** The
+   Audio Description option only appears when your course administrator has
+   enabled it for your course.
+
+Audio description (AD) is a narrated audio track that describes the visual
+content of a video — such as on-screen text, actions, scene changes, and
+graphics — for learners who are blind or have low vision. Adding an audio
+description track to your videos helps you meet
+`WCAG 2.1 Success Criterion 1.2.5 (Audio Description) <https://www.w3.org/WAI/WCAG21/Understanding/audio-description-prerecorded.html>`_.
+
+When a video has an audio description attached, learners see an **Audio
+Description** toggle button in the video player controls. They can turn the
+audio description on or off at any time during playback.
+
+.. image:: ../../../shared/images/AudioDescription_PlayerToggleInactive.png
+   :alt: The learner video player controls showing the Audio Description
+       toggle button in its inactive state.
+
+|
+
+**Supported File Formats**
+
+You can upload audio description files in the following formats:
+
+* MP3 (.mp3)
+* OGG (.ogg)
+* M4A (.m4a)
+* WAV (.wav)
+* AAC (.aac)
+
+The maximum file size is **200 MB**.
+
+.. _Add an Audio Description:
+
+Add an Audio Description
+*************************
+
+To add an audio description to a video component in Studio, follow these steps.
+
+#. In Studio, navigate to the Unit that contains the video component you want
+   to update.
+
+#. Select **Edit** on the video component to open the video editor.
+
+#. In the video settings panel on the right, scroll down until you see the
+   **Audio Description (AD)** collapsible section. If no audio description
+   file has been uploaded yet, the section displays **None** below the title.
+
+   .. image:: ../../../shared/images/AudioDescription_SectionCollapsedWithNone.png
+      :alt: The Audio Description (AD) section in the video settings panel,
+          shown in its collapsed state with the subtitle None, indicating that
+          no audio description file has been uploaded.
+
+   .. note::
+      If you do not see the **Audio Description (AD)** section, the feature
+      has not been enabled for your course. Contact your course administrator
+      to enable it.
+
+#. Select the **Audio Description (AD)** section header to expand it. The
+   expanded section displays the message "Add an audio description track
+   (MP3, OGG, M4A, WAV, or AAC) to provide narrated descriptions of visual
+   content for learners who are blind or have low vision" and an
+   **Upload Audio Description** button with an upload icon.
+
+   .. image:: ../../../shared/images/AudioDescription_SectionExpand.png
+      :alt: The expanded Audio Description (AD) section showing the heading
+          Audio Description (AD), the help text describing supported audio
+          formats, and the Upload Audio Description button with an upload
+          icon at the bottom left.
+
+#. Select the **Upload Audio Description** button. A file browser dialog
+   opens.
+
+#. In the file browser, locate and select the audio description file you have
+   prepared for this video. The file must be one of the supported formats
+   (MP3, OGG, M4A, WAV, or AAC) and must not exceed 200 MB.
+
+   If you select a file with an unsupported format, Studio displays an error
+   message indicating which formats are accepted.
+
+   .. image:: ../../../shared/images/AudioDescription_FileTypeError.png
+      :alt: The Audio Description (AD) section showing an error banner that
+          reads Only MP3, OGG, M4A, WAV, and AAC files are supported for
+          audio descriptions, with a Dismiss button.
+
+   If you select a file that exceeds 200 MB, Studio displays an error message
+   indicating that the file is too large.
+
+   .. image:: ../../../shared/images/AudioDescription_FileSizeError.png
+      :alt: The Audio Description (AD) section showing an error banner that
+          reads Audio description files must be 200 MB or less, with a
+          Dismiss button.
+
+   You can select **Dismiss** to close either error message and try again
+   with a valid file.
+
+#. Select **Open** (or **Choose**, depending on your browser) to begin the
+   upload.
+
+   Studio shows a spinning progress indicator while the file uploads. When
+   the upload completes, the file name appears in the **Audio Description
+   (AD)** section alongside a **Delete** button, and a help message confirms
+   that learners can toggle the audio description track using the player
+   controls.
+
+   .. image:: ../../../shared/images/AudioDescription_UploadComplete.png
+      :alt: The Audio Description (AD) section after a successful upload,
+          showing the uploaded file name file_example_MP3_5MG.mp3 in a
+          bordered row with a Delete button on the right.
+
+#. Select **Save** at the bottom of the video editor to save your changes.
+
+After you save, the collapsed **Audio Description (AD)** section displays the
+uploaded file name instead of **None**.
+
+.. image:: ../../../shared/images/AudioDescription_SectionCollapsedWithFile.png
+   :alt: The Audio Description (AD) section in its collapsed state showing
+       the uploaded file name file_example_MP3_5MG.mp3 as the subtitle.
+
+Learners who view this video will see an **Audio Description** toggle button
+in the video player controls. When the audio description is active, the button
+appears highlighted.
+
+.. image:: ../../../shared/images/AudioDescription_PlayerToggleActive.png
+   :alt: The learner video player controls showing the Audio Description
+       toggle button in its active state, highlighted in yellow.
+
+When the audio description is inactive, learners can select the button to turn
+it on.
+
+.. image:: ../../../shared/images/AudioDescription_PlayerToggleInactive.png
+   :alt: The learner video player controls showing the Audio Description
+       toggle button in its inactive state.
+
+If no audio description file has been uploaded for the video, the toggle button
+appears disabled and a tooltip displays **Audio description not available**
+when learners hover over it.
+
+.. image:: ../../../shared/images/AudioDescription_PlayerToggleDisabled.png
+   :alt: The learner video player controls showing the Audio Description
+       toggle button in a disabled state with a tooltip that reads Audio
+       description not available.
+
+.. tip::
+   For the best learner experience, the audio description track should be
+   approximately the same length as the video. Consider re-recording the
+   description to match the video length if needed.
+
+.. _Replace an Audio Description:
+
+Replace an Audio Description
+*****************************
+
+To replace an existing audio description file with a new one, you must first
+delete the current file and then upload the replacement.
+
+#. In Studio, navigate to the Unit that contains the video component.
+
+#. Select **Edit** on the video component to open the video editor.
+
+#. In the video settings panel, expand the **Audio Description (AD)** section.
+   You will see the current audio description file name with a **Delete**
+   button next to it.
+
+   .. image:: ../../../shared/images/AudioDescription_UploadComplete.png
+      :alt: The Audio Description (AD) section showing the current file name
+          and the Delete button next to it.
+
+#. Select **Delete** to remove the current audio description file.
+
+#. Select **Upload Audio Description** and choose the new audio description
+   file from your computer.
+
+#. After the upload completes and the new file name appears, select **Save**.
+
+.. _Delete an Audio Description:
+
+Delete an Audio Description
+****************************
+
+To remove the audio description from a video component, follow these steps.
+
+#. In Studio, navigate to the unit that contains the video component.
+
+#. Select **Edit** on the video component to open the video editor.
+
+#. In the video settings panel, expand the **Audio Description (AD)** section.
+
+#. Select **Delete** next to the audio description file name.
+
+   The file name disappears, and the **Upload Audio Description** button
+   reappears.
+
+   .. image:: ../../../shared/images/AudioDescription_SectionExpand.png
+      :alt: The Audio Description (AD) section after deletion, showing the
+          Upload Audio Description button with no file attached.
+
+#. Select **Save** to save your changes.
+
+After you save, the **Audio Description** toggle button will no longer appear
+in the learner's video player for that video.
 
 .. _Duration:
 
