@@ -170,6 +170,12 @@ When a video has an audio description attached, learners see an **Audio
 Description** toggle button in the video player controls. They can turn the
 audio description on or off at any time during playback.
 
+.. image:: ../../../shared/images/AudioDescription_PlayerToggleInactive.png
+   :alt: The learner video player controls showing the Audio Description
+       toggle button in its inactive state.
+
+|
+
 **Supported File Formats**
 
 You can upload audio description files in the following formats:
@@ -189,7 +195,7 @@ Add an Audio Description
 
 To add an audio description to a video component in Studio, follow these steps.
 
-#. In Studio, navigate to the unit that contains the video component you want
+#. In Studio, navigate to the Unit that contains the video component you want
    to update.
 
 #. Select **Edit** on the video component to open the video editor.
@@ -306,7 +312,7 @@ Replace an Audio Description
 To replace an existing audio description file with a new one, you must first
 delete the current file and then upload the replacement.
 
-#. In Studio, navigate to the unit that contains the video component.
+#. In Studio, navigate to the Unit that contains the video component.
 
 #. Select **Edit** on the video component to open the video editor.
 
