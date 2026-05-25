@@ -27,12 +27,11 @@ You manage videos for your course on the Videos page. This page lists the
 videos that you have added, along with the following capabilities and 
 information regarding the videos.
 
-.. image:: ../../../shared/images/videos_page.png
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-ListViewNewOptionAddTranscriptEditor.png
  :width: 600
- :alt: The Videos page lists all course videos.  Additional features include: 
-  title search; sort and filter; add videos; download videos; delete videos; 
-  view file name, video length, transcript status, and whether video is 
-  active in the course at a glance.
+ :alt: The Videos page list view shows file name, video length, transcript
+  status, active status, and a three-dot menu with options to copy the video
+  ID, download, open Info and transcripts, or delete the video.
 
 * A checkbox for Download and Delete bulk actions
 * A thumbnail of the file
@@ -43,23 +42,265 @@ information regarding the videos.
 * An indication of the video status (failed, processing, or blank. The video 
   is ready when that column is blank)
 * The three dot menu allows you to copy the Video ID, download the video, 
-  launch the Info Modal, and delete a video
+  launch the Info Modal, edit transcripts, and delete a video
 
 =================
 Video Info Modal
 =================
 
 The Info Modal shows the date added, the file size, and the length of the 
-video. The “Usage” section lists all Units where the file is referenced 
+video. It also lists available transcripts and includes an option to add a
+transcript. The “Usage” section lists all Units where the file is referenced
 within the course. Clicking on each link will take you to the corresponding 
 Studio Unit page. 
 
-.. image:: ../../../shared/images/videos_page_info_modal.png
- :width: 400
- :alt: The Info Modal shows the thumbnail, the date the video was added, 
-  the file size, the video length, and if the video is active, then there 
-  is a link on the bottom left hand corner of the page that will take you 
-  to the location of the video in the course.
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-Uploaded.png
+ :width: 500
+ :alt: The Info Modal shows the video details, available transcripts, and
+  course usage link for the video.
+
+.. _Edit Video Transcripts Inline:
+
+=============================
+Edit Video Transcripts Inline
+=============================
+
+You can add, replace, download, delete, and edit .srt transcripts from the
+Transcript area in the Info Modal on the **Videos** page. Use this workflow
+after a video has been uploaded and you need to add a transcript, replace an
+old transcript file, or correct caption text and timing.
+
+The transcript editor opens in a modal window. It lets you preview the video
+while you edit transcript cues. A cue is one caption entry: the text learners
+see and the start and end times for when that text appears.
+
+Before You Start
+----------------
+
+* Use .srt files when you upload transcripts.
+* Edit one transcript language at a time.
+* Cue times use ``HH:MM:SS,mmm`` format. For example, ``00:01:15,250`` starts
+  at one minute, fifteen seconds, and 250 milliseconds.
+* Changes are not saved until you select **Save** in the transcript editor.
+
+Open Transcript Management
+--------------------------
+
+Start on the **Videos** page. You can open transcript management from the list
+view, the card view, or the video's Info Modal. The list and card views are the
+shortest paths when you already know which video to update. The Info Modal is
+useful when you want to confirm video details before changing transcripts.
+
+#. Open the course in Studio.
+#. On the **Content** menu, select **Videos**.
+#. Find the video that you want to update.
+#. Open the video action menu, and then select **Edit transcripts**.
+
+Studio opens the Info Modal and shows the Transcript area for the selected
+video.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-ListViewNewOptionAddTranscriptEditor.png
+ :width: 600
+ :alt: The Videos page list view shows the Edit transcripts option in the video
+  action menu.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-CardViewNewOptionAddTranscriptEditor.png
+ :width: 600
+ :alt: The Videos page card view shows the Edit transcripts option in the video
+  action menu.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-VIdeoInfoAndTranscriptDailogBox.png
+ :width: 500
+ :alt: The Info Modal Transcript area shows a new transcript form with a
+  language selector and an Upload file button.
+
+From the Transcript area, choose the action that matches your task.
+
+* To add a transcript for a language, select **Add transcript**.
+* To work with an existing transcript, open the **menu icon (•••)** for that
+  language. You can edit, replace, download, or delete the transcript.
+
+Add a Transcript
+----------------
+
+Use **Add transcript** when you have a completed .srt file and need to attach it
+to the video for a specific language.
+
+#. In the Transcript area, select **Add transcript**.
+#. Select the language for the transcript.
+
+   .. image:: ../../../shared/images/transcript_editor/TranscriptEditor-LanguageSelect.png
+    :width: 500
+    :alt: The transcript language selector lists available languages.
+
+#. Search for the language if it is not visible in the list.
+
+   .. image:: ../../../shared/images/transcript_editor/TranscriptEditor-SelectAndSearchLanauge.png
+    :width: 500
+    :alt: The transcript language selector includes a search field for finding
+     a transcript language.
+
+   .. image:: ../../../shared/images/transcript_editor/TranscriptEditor-LanguageSearch1.png
+    :width: 500
+    :alt: The transcript language search filters the language list as you type.
+
+   .. image:: ../../../shared/images/transcript_editor/TranscriptEditor-LanguageSearch2.png
+    :width: 500
+    :alt: The transcript language search shows the matching language result.
+
+#. Select **Upload file** and choose the .srt transcript file.
+
+   .. image:: ../../../shared/images/transcript_editor/TranscriptEditor-UploadButtonToFileSelectFromDailogbox.png
+    :width: 500
+    :alt: The New transcript form shows the Upload file button.
+
+   .. image:: ../../../shared/images/transcript_editor/TranscriptEditor-UploadToBrowser.png
+    :width: 500
+    :alt: The New transcript form shows the selected transcript file.
+
+#. Wait for Studio to upload the file.
+
+   .. image:: ../../../shared/images/transcript_editor/TranscriptEditor-Uploading.png
+    :width: 500
+    :alt: The New transcript form shows the transcript file while it is
+     uploading.
+
+   .. image:: ../../../shared/images/transcript_editor/TranscriptEditor-Uploaded.png
+    :width: 500
+    :alt: The New transcript form shows the uploaded transcript file.
+
+#. Select **Add transcript**.
+
+After Studio adds the transcript, a confirmation message appears and the new
+language is included in the transcript list. You can then open the language menu
+and edit the transcript cues if you need to fix text or timing.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-AfterAddShowingToastMessage.png
+ :width: 500
+ :alt: Studio shows a success message after the transcript is added.
+
+Transcript files must be .srt files and cannot be larger than 25 MB. If you
+upload an invalid file, Studio shows an error.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-InvalidFileError.png
+ :width: 500
+ :alt: Studio shows an error when the selected transcript file is invalid.
+
+Edit Transcript Cues
+--------------------
+
+Use the transcript editor when a transcript is already attached to the video and
+you need to correct words, adjust timing, split a long caption, or remove a cue.
+The editor works on one language at a time.
+
+#. Open transcript management for the video.
+#. In the Transcript area, select the **menu icon (•••)** for the transcript
+   language that you want to edit, and then select **Edit transcript**.
+
+    .. image:: ../../../shared/images/transcript_editor/TranscriptEditor-AddNewOptionEditorTranscript.png
+     :width: 500
+     :alt: The transcript language menu includes Edit transcript, Replace,
+      Download, and Delete options.
+
+#. In the transcript editor modal, update cue text or cue times as needed.
+
+Each row in the editor is one cue. The text box controls the caption text that
+learners see. The start and end time fields control when the caption appears and
+disappears in the video preview.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-MainEditor.png
+ :width: 600
+ :alt: The transcript editor shows the video player, editable transcript cue
+  text, editable start and end times, cue preview controls, delete controls,
+  and Save and Cancel buttons.
+
+Select the play control for a cue to jump the video to that cue time and
+preview the cue text against the video. This helps you check whether the caption
+appears at the right moment.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-EditorModelToPlayJumpButton.png
+ :width: 600
+ :alt: The transcript editor shows the play control for a transcript cue.
+
+When you change cue text, the video preview updates the subtitle text. Use the
+preview to check spelling, punctuation, and line breaks before saving.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-EditorModelToLiveSubtitleChange.png
+ :width: 600
+ :alt: The transcript editor video preview shows the updated subtitle text.
+
+Add or Remove Cues
+------------------
+
+Use cue controls when the transcript is missing a caption line, a caption needs
+to be split into shorter text, or a caption should be removed. Keep cues in the
+same order as the spoken content in the video.
+
+To add a cue, select **Insert cue here** between transcript cues.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-EditorModelToAddNewCue.png
+ :width: 600
+ :alt: The transcript editor shows the Insert cue here button between cues.
+
+Enter the cue text and set the start and end times. The new cue should start
+after the previous cue and end before the next cue.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-EditorModelToNewCueAdded.png
+ :width: 600
+ :alt: The transcript editor shows a newly inserted transcript cue.
+
+To remove a cue, select the delete control for that cue. This removes only that
+caption entry, not the entire transcript language.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-EditorModelToRemoveButton.png
+ :width: 600
+ :alt: The transcript editor shows the delete control for a transcript cue.
+
+Studio asks you to confirm before deleting a transcript or transcript cue.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-DeletePrompt.png
+ :width: 500
+ :alt: Studio shows a confirmation prompt before deleting transcript content.
+
+Validate and Save Changes
+-------------------------
+
+The editor validates transcript cue text and cue timing before saving. A cue
+must include caption text, and cue times must use ``HH:MM:SS,mmm`` format. The
+end time must be later than the start time.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-EditorModelToEmptyCueError.png
+ :width: 600
+ :alt: The transcript editor shows an error when a cue has no transcript text.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-EditorModelToInvalidStartTime.png
+ :width: 600
+ :alt: The transcript editor shows an error when a cue start time is invalid.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-EditorModelToInvalidEndTime.png
+ :width: 600
+ :alt: The transcript editor shows an error when a cue end time is invalid.
+
+Select **Save** to save transcript changes. Studio shows progress while saving
+and then confirms that the transcript was saved. After the transcript is saved,
+the updated captions are available wherever the video is used in the course.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-EditorModelToAfterSaveLoading.png
+ :width: 600
+ :alt: The transcript editor shows a loading state after Save is selected.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-EditorModelToAfterSaved.png
+ :width: 600
+ :alt: Studio shows a success message after transcript changes are saved.
+
+If you close the editor with unsaved changes, Studio prompts you to keep editing
+or leave the editor. Select **Keep editing** if you want to return to the editor
+and save your changes.
+
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-EditorModelToWithoutSavePrompt.png
+ :width: 600
+ :alt: Studio prompts you to keep editing or leave the editor when transcript
+  changes have not been saved.
 
 This page also includes a Search option to help you find specific videos. 
 For more information, see :ref:`Find an Uploaded Video`.
@@ -111,13 +352,12 @@ represents all of the formats and hosting locations for the video.
 * For courses that have :ref:`non-integrated transcripts <Automated Video
   Process for Non Integrated Transcripts>`, you must obtain your transcripts
   from your third party provider. You later :ref:`add the video transcripts
-  manually <Add a Transcript>` when you create a video component. Transcripts 
-  can also be added in the Transcript tab within the Info Modal.
+  manually <Add a Transcript>` from the Transcript area in the Info Modal.
 
-.. image:: ../../../shared/images/videos_page_info_modal_transcripts.png
- :width: 400
- :alt: The Transcript Tab shows the languages a video has transcripts for and 
-  also offers the capability to add languages.
+.. image:: ../../../shared/images/transcript_editor/TranscriptEditor-Uploaded.png
+ :width: 500
+ :alt: The Info Modal shows the New transcript form with an uploaded transcript
+  file.
 
 .. note::
   If a step in the process does not complete successfully, the process

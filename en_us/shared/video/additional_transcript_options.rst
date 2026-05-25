@@ -63,10 +63,15 @@ select a language.
 Edit a Video Transcript
 ***************************
 
-If you want to edit an existing .srt video transcript, follow
+If you want to edit an existing .srt video transcript, you can use the
+in-platform transcript editor from the **Videos** page when it is available
+for your course. For more information, see :ref:`Edit Video Transcripts
+Inline`.
+
+If the in-platform transcript editor is not available for your course, follow
 these steps.
 
-.. only:: Partner
+.. only:: Partners
 
   .. note::
    If you need to edit an integrated transcript from 3Play Media or cielo24,
