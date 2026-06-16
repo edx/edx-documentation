@@ -38,6 +38,7 @@ For information about building specific course component types, see
    google_docs
    iframe
    image_mapped_input
+   in_video_quiz
    lti_component
    math_expression_input
    mathjax
