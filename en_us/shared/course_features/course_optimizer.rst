@@ -27,12 +27,12 @@ To scan your course:
 
 #. Select **Scan course**.
 
-On the **Course Optimizer** page, select **Scan course** to start scanning
-your course content for broken links and images.
+   On the **Course Optimizer** page, select **Scan course** to start scanning
+   your course content for broken links and images.
 
-.. image:: ../../../shared/images/course_optimizer_scan_page.png
- :width: 600
- :alt: The Course Optimizer page with the Scan course button.
+   .. image:: ../../../shared/images/course_optimizer_scan_page.png
+    :width: 600
+    :alt: The Course Optimizer page with the Scan course button.
 
 The scan progresses through three stages:
 
