@@ -18,12 +18,12 @@ To scan your course:
 
 #. Select **Tools**, then select **Course Optimizer**.
 
-From the **Course Outline** page, open the **Tools** menu and select **Course
-Optimizer**.
+   From the **Course Outline** page, open the **Tools** menu and select **Course
+   Optimizer**.
 
-.. image:: ../../../shared/images/course_optimizer_tools_menu.png
- :width: 600
- :alt: The Tools menu in Studio with Course Optimizer highlighted.
+   .. image:: ../../../shared/images/course_optimizer_tools_menu.png
+    :width: 600
+    :alt: The Tools menu in Studio with Course Optimizer highlighted.
 
 #. Select **Scan course**.
 
