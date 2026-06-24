@@ -22,3 +22,4 @@ see :ref:`Developing Your Course Index`.
    lti/index
    xpert_summaries/index
    xpert_translations/index
+   course_optimizer
