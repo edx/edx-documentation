@@ -928,9 +928,9 @@ learning materials for study and review.
 Accessible Media Resources
 =====================================================
 
-* `Accessible Digital Media Guidelines <http://ncam.wgbh.org/invent_build/web_multimedia/accessible-digital-media-guide>`_ provides detailed advice on creating online video and audio with accessibility in mind.
+* `Making Audio and Video Media Accessible <https://www.w3.org/WAI/media/av/>`_ from the W3C Web Accessibility Initiative provides detailed advice on creating online video and audio with accessibility in mind.
 * `Captioning Key <http://captioningkey.org/quality_captioning.html>`_ by the National Association for the Deaf provides excellent guidance on creating described and captioned media.
-* `Closed Captioning & Subtitling Standards in IP Video Programming <https://www.3playmedia.com/2016/06/16/closed-captioning-subtitling-standards-in-ip-video-programming/>`_ by 3PlayMedia discusses best practices in this recorded webinar and white paper.
+* `Closed Captioning & Subtitling Standards in IP Video Programming <https://www.3playmedia.com/blog/closed-captioning-subtitling-standards-in-ip-video-programming/>`_ by 3PlayMedia discusses best practices in this recorded webinar and white paper.
 
 .. _Best Practices for HTML Markup:
 
