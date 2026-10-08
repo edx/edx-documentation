@@ -31,6 +31,7 @@ For information about building specific course component types, see
    drag_and_drop_deprecated
    dropdown
    external_graders
+   free_text_response
    full_screen_image
    games_block
    gene_explorer
